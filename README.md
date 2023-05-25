@@ -14,6 +14,6 @@ export APP_CONFIG_ENVIRONMENT_IDENTIFIER=""
 ## How to try:
 
 1. Setup Environment
-2. Modify demo/index.ts with your flag.
+2. Modify at the end of index.js with your flag.
 3. Run `npm install` or `yarn`
 4. Run `yarn dev` or `npm run dev`
