@@ -1,0 +1,22 @@
+{
+  "name": "test-app-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-appconfig": "^3.338.0",
+    "@aws-sdk/client-appconfigdata": "^3.338.0",
+    "aws-sdk": "^2.1384.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.3"
+  }
+}
