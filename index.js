@@ -39,7 +39,7 @@ const featureFlag = async (flag) => {
         str += String.fromCharCode(response.Configuration[i]);
       }
       const allFlag = JSON.parse(str);
-      console.log(allFlag);
+      console.log("All flags:", allFlag);
       flags = Object.assign({}, allFlag);
     }
     return Boolean(flags[flag]?.enabled);
